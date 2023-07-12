@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Poppins:wght@400;700&display=swap');
+
+
+body{
+    /* margin: 0px 60px; */
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    font-weight: 800;
+}
+p{
+    font-size: 18px;
+    color: #2727278c;
+}
+button{
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background: #E55473;
+    border: none;
+}
+h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+/* fast page css style */
+.fast_page{
+    background: rgba(229, 84, 115, 0.1);
+    padding: 120px 60px 0px 70px;
+}
+.fast_page .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 90px;
+    align-items: center;
+    /* justify-items:flex-end; */
+    
+}
+
+.fast_pageH1{
+    padding-bottom: 25px;
+}
+
+.fast_page-p{
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+.fast_page-btn{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fast_page-img img{
+    width: 80%;
+    
+}
+
+
+/* 2d page css style */
+.second_page{
+    padding: 80px 60px 0px 60px;
+}
+
+
+.second_page-h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.second_page-p{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.second_page .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+
+
+.second_img img{
+    margin-top: 50px;
+    width: 310px;
+    height: 428px;
+    background: #E55473;
+    padding: 90px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px;
+}
+.second_page-a a{
+text-decoration: none;
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+/* second_page style end */
+
+/* third page style start */
+
+.third_page-body{
+    margin: 128px 50px;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+}
+
+
+.third_page-body .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
+    color: #272727;
+    text-align: center;
+}
+
+.third_page{
+    padding: 86px 170px;
+}
+/* third page style end */ 
+/* fourth page style start*/ 
+
+
+
+.fourth_page-body{
+    margin: 128px 50px;
+}
+
+.fourth_page-body .contaer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 186px;
+}
+
+
+
+.fourth_page-texr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fourth_h2{
+    padding-bottom: 24px;
+}
+
+.fourth_p{
+    padding-bottom: 24px;
+}
+
+.fourth_page-img img{
+    width: 318px;
+}
+
+/* fourth page style end*/ 
+/* fifth page style start */
+
+
+
+
+.fifth_page-body{
+    margin: 120px 80px;
+}
+
+.fifth_page-h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.fifth_page-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.fifth_page-imgs img{
+    width: 300px;
+}
+
+.fifth_page_items .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+/* fifth page style end*/ 
+
+
+
+
+.sixth_page-body{
+    background-image: linear-gradient(red, yellow, green);
+    background-image: url(./Rectangle\ 9.png);
+    margin: 110px 120px;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.sixth_page-h2{
+    padding-top: 120px;
+    padding-bottom: 16px;
+}
+.sixth_page-p{
+    display: flex;
+    justify-content: center;
+}
+
+.sixth_page-emailSection .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: " a a b ";
+    padding: 48px 218px;
+    gap: 5px;
+} 
+
+
+
+#email{
+    grid-area: a;
+}
+
+.sixth_page-btn{
+    grid-area: b;
+}
